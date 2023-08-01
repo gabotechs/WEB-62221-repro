@@ -14,5 +14,4 @@ yarn build
 
 3. go to `one/src/index.ts`
 
-[](./.assets/demo.gif)
-
+![](./.assets/demo.gif)
