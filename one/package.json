@@ -1,0 +1,13 @@
+{
+  "name": "@WEB-62221-repro/one",
+  "main": "lib/index.js",
+  "dependencies": {
+    "@WEB-62221-repro/two": "workspace:^"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5"
+  }
+}

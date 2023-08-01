@@ -1,0 +1,15 @@
+{
+  "name": "WEB-62221-repro",
+  "packageManager": "yarn@3.6.1",
+  "workspaces": [
+    "one",
+    "two"
+  ],
+  "scripts": {
+    "build": "yarn workspaces foreach -pt run build"
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "^1.0.1",
+    "typescript": "5.0.2"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "@WEB-62221-repro/two",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  }
+}
