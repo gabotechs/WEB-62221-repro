@@ -12,6 +12,10 @@ yarn install
 yarn build
 ```
 
-3. go to `one/src/index.ts`
+3. Configure Webstorm to use the patched TypeScript from `.yarn/sdks/typescript`
+
+![](./.assets/typescript-config.png)
+
+4. go to `one/src/index.ts`
 
 ![](./.assets/demo.gif)
